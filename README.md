@@ -33,7 +33,7 @@ Now done with cleaning the training set, and we have created the spam filter. Th
 
 
 <p align="center">
-  <img width="460" height="300" src="img.PNG">
+  <img src="img.PNG">
 </p>
 
 
