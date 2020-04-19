@@ -17,7 +17,7 @@ The results look good! We'll now move on to cleaning the dataset.
 To calculate all the probabilities required by the algorithm, we'll first need to perform a bit of data cleaning to bring the data in a format that will allow us to extract easily all the information we need.
 
 Essentially, we want to bring data to this format:
-<img src="https://camo.githubusercontent.com/27a4a0a699bd8f0713d73347abe2929c267a03d5/68747470733a2f2f64712d636f6e74656e742e73332e616d617a6f6e6177732e636f6d2f3433332f637067705f646174617365745f332e706e67" >
+<img src="https://camo.githubusercontent.com/27a4a0a699bd8f0713d73347abe2929c267a03d5/68747470733a2f2f64712d636f6e74656e742e73332e616d617a6f6e6177732e636f6d2f3433332f637067705f646174617365745f332e706e67" align="center"/>
 
 #### Letter Case and Punctuation
 Then we removed all the punctuation and bringing every letter to lower case. 
