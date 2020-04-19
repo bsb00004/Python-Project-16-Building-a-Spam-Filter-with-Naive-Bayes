@@ -31,6 +31,12 @@ Then we created the vocabulary, which in this context means a list with all the 
 ### Calculating Constants First
 Now done with cleaning the training set, and we have created the spam filter. The Naive Bayes algorithm will need to answer these two probability questions to be able to classify new messages:
 
+\begin{equation}
+P(Spam | w_1,w_2, ..., w_n) \propto P(Spam) \cdot \prod_{i=1}^{n}P(w_i|Spam) \\
+P(Ham | w_1,w_2, ..., w_n) \propto P(Ham) \cdot \prod_{i=1}^{n}P(w_i|Ham)
+\end{equation}
+
+
 $$
 P(Spam | w_1,w_2, ..., w_n) \propto P(Spam) \cdot \prod_{i=1}^{n}P(w_i|Spam)
 $$$$
