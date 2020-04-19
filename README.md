@@ -30,12 +30,10 @@ Then we created the vocabulary, which in this context means a list with all the 
 
 ### Calculating Constants First
 Now done with cleaning the training set, and we have created the spam filter. The Naive Bayes algorithm will need to answer these two probability questions to be able to classify new messages:
-
-                                            <img src="img1.PNG">
+ <img src="img1.PNG">
                                             
 Also, to calculate P(wi|Spam) and P(wi|Ham) inside the formulas above, we'll need to use these equations:
-
-                                            <img src="img2.PNG">
+  <img src="img2.PNG">
 
 Some of the terms in the four equations above will have the same value for every new message. We can calculate the value of these terms once and avoid doing the computations again when a new messages comes in. Below, we used our training set to calculate:
 
@@ -48,7 +46,7 @@ Now that we have the constant terms calculated above, we calculated the paramete
 
 The parameters are calculated using the formulas:
 
-<img src="img4.PNG">
+            <img src="img4.PNG">
 
 ### Classifying A New Message
 Now that we have all our parameters calculated, we created the spam filter. The spam filter can be understood as a function that:
