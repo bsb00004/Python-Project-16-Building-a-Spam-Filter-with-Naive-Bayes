@@ -31,7 +31,7 @@ Then we created the vocabulary, which in this context means a list with all the 
 ### Calculating Constants First
 Now done with cleaning the training set, and we have created the spam filter. The Naive Bayes algorithm will need to answer these two probability questions to be able to classify new messages:
 
-<img align="centre" src="img1.PNG">
+<img align="right" src="img1.PNG">
 
 <img src="img1.PNG">
                                             
